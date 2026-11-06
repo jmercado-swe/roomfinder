@@ -27,7 +27,9 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - The `main` branch is protected. No direct pushes.
 - Create a feature branch for each task, for example `feature/user-auth`.
 - Open a Pull Request into `main`. At least one teammate must review it before merging.
-- Run `npm run lint` and `npm run format` before opening a Pull Request.
+- Add automated tests for changed behavior and relevant user journeys. Run the applicable
+  test suite, `npm run lint`, `npm run format:check`, `npx tsc --noEmit`, and
+  `npm run build` before opening a Pull Request.
 
 ## Project Specification
 
